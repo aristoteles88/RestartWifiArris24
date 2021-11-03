@@ -54,3 +54,5 @@ enableWirelessCheckbox.click()
 
 applyButton = browser.find_element(by=By.CLASS_NAME, value="submitBtn")
 applyButton.click()
+
+browser.close()
